@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Portofolio - Contact</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <a href="index.html" class="brand-link">
+                    <h1 class="logo">Portofolio</h1>
+                    <p class="tagline">Apri Cahyadi — Mahasiswa Sistem Informasi</p>
+                </a>
+            </div>
+            <nav class="nav">
+                <input id="nav-toggle" class="nav-toggle" type="checkbox" aria-hidden="true">
+                <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+                    <span></span><span></span><span></span>
+                </label>    
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="karya.html">Karya &amp; Project</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Contact</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div><h4>Email</h4><p>apri.cahyadi77@gmail.com</p></div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div><h4>Telepon</h4><p>+62 812 3456 7890</p></div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📷</div>
+                            <div><h4>Instagram</h4><a href="https://www.instagram.com/kazuo_keii?igsh=MXdmYnNiMW12czdveg==">@kazuo_keii</a></div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div><h4>Lokasi</h4><p>Kab. Tangerang, Banten</p></div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🏫</div>
+                            <div><h4>Kampus</h4><p>Universitas Pamulang<br>Fakultas Ilmu Komputer</p></div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-box">
+                        <h3>Kirim Pesan</h3>
+                        <p class="form-note">Form simulasi. Untuk fungsionalitas lengkap, diperlukan backend/server.</p>
+                        <form id="simulation-form" class="contact-form">
+                            <input type="text" id="sim-name" placeholder="Nama Lengkap" required>
+                            <input type="email" id="sim-email" placeholder="Alamat Email" required>
+                            <textarea id="sim-message" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                            <button type="submit" class="btn">Kirim</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Muhamad Apri Cahyadi.</p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
